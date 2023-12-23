@@ -1,0 +1,12 @@
+name: Sphinx Lint Problem Matcher
+description: Attaches a problem matcher that looks for errors reported during sphinx-lint runs
+author: Rafael Fontenelle
+branding:
+  icon: book
+  color: yellow
+runs:
+  using: composite
+  steps:
+  - name: ✨ Activate the Sphinx Lint Problem Matcher
+    run: echo '::add-matcher::${{ github.action_path }}/sphinx_lint_matcher.json'
+    shell: bash
