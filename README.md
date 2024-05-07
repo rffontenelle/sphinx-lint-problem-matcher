@@ -4,6 +4,10 @@ This action adds a GitHub Action problem matcher that annotates messages
 printed by [sphinx-lint][sphinx-lint], making it easier to spot Sphinx
 syntax errors.
 
+How it shows up in the summary page of a GitHub Action run:
+
+[](.img/summary-annotations.png)
+
 ## Usage
 
 Set to use this workflow before running `sphinx-lint`. For instance:
