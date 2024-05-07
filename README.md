@@ -10,6 +10,10 @@ How it shows up in the summary page of a GitHub Action run:
 
 <img src=".img/summary-annotations.png" width=50%>
 
+How it shows up in pull requests, in the "Files changed" tab:
+
+<img src=".img/pull-request-annotations.png" width=50%>
+
 ## Usage
 
 Set to use this workflow before running `sphinx-lint`. For instance:
