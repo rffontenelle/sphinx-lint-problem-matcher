@@ -6,7 +6,7 @@ syntax errors.
 
 How it shows up in the summary page of a GitHub Action run:
 
-[](.img/summary-annotations.png)
+<img src=".img/summary-annotations.png" width=50%>
 
 ## Usage
 
